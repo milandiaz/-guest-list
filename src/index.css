@@ -1,0 +1,41 @@
+.table {
+  margin: auto;
+  width: 80%;
+  max-width: 800px;
+  background: white;
+  border-radius: 10px;
+  border: 2px solid;
+  border-color: black;
+  padding: 1.5rem;
+}
+
+.table th {
+  text-align: center;
+  padding-right: 4rem;
+}
+
+.table td {
+  text-align: left;
+  padding: 0.5rem;
+}
+
+.table tbody tr:hover {
+  background-color: #fafe9e;
+  cursor: pointer;
+}
+
+body {
+  background-color: rgb(225, 225, 225);
+}
+
+.selected {
+  margin: auto;
+  width: 40%;
+  max-width: 800px;
+  background: white;
+  border-radius: 10px;
+  border: 2px solid;
+  border-color: black;
+  padding: 1.5rem;
+  padding-top: 0.5rem;
+}

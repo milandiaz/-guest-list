@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 
 const BASE = "https://fsa-crud-2aa9294fe819.herokuapp.com/api/";
-const COHORT = "/2506-Milan";
-const EXT = "/guests";
+const COHORT = "2506-Milan";
+const API = BASE + COHORT;
 
 export default function useQuery(resource) {
   const [data, setData] = useState();
